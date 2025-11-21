@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.admin-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.admin-table thead th {
+  background: #0f1b61;
+  color: white !important;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px;
+  font-size: 14px;
+}
+
+
+.admin-table tbody td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px;
+}
+
+
+.admin-table tbody tr:hover {
+  background-color: #f2f5ff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
